@@ -424,17 +424,18 @@ background-color:#4D5AE5;
 
     }
 
-    .customers-bt:hover,
-    .customers-bt:focus{
-       fill: rgb(64, 75, 191);
+    .customers-id:hover,
+    .customers-id:focus{
+    border-color: rgb(64, 75, 191);
     }
 
-        .customers-id:hover,
-        .customers-id:focus {
-            fill: rgb(64, 75, 191);
+        .customers-id:hover .customers-bt,
+        .customers-id:focus .customers-bt
+        {
+       fill: rgb(64, 75, 191);
         }
 
-
+        
 
 
 /*текст футера*/
