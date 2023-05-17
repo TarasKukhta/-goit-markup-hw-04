@@ -184,6 +184,8 @@ background-repeat: no-repeat;
 background-position: center; 
 background-size: cover;
 max-width: 1440px;
+margin-left: auto;
+margin-right: auto;
 background-color:var(--hero-background-color);}
 
 /*кнопка-головна*/
@@ -309,8 +311,6 @@ width: 232px;
 height: 40px;}
 
 .icons-social{
-width: 16px;
-height: 16px;
 fill: #F4F4FD;}
 
 
