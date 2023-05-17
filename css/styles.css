@@ -82,6 +82,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 padding: 24px 0;
+display: block;
 color: #2e2f42;}
 
 .link:hover,
@@ -121,8 +122,7 @@ gap: 40px;
 .menu {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
 }
 
 /* ================= HERO ================= */
@@ -407,6 +407,7 @@ background-color:#4D5AE5;
         justify-content: center;
         border: 1px solid rgb(153, 142, 145);
         border-radius: 4px;
+        color: rgb(153, 142, 145);
     height: 100%;
     width: 100%;
 }
@@ -420,25 +421,66 @@ background-color:#4D5AE5;
 
     .customers-bt{
     
-        fill: rgb(142, 143, 153);
+        /*fill: rgb(142, 143, 153);*/
+        fill: currentColor;
 
     }
 
     .customers-id:hover,
     .customers-id:focus{
     border-color: rgb(64, 75, 191);
+    color:rgb(64, 75, 191);;
     }
 
-        .customers-id:hover .customers-bt,
+        /*.customers-id:hover .customers-bt,
         .customers-id:focus .customers-bt
         {
        fill: rgb(64, 75, 191);
-        }
+        }*/
 
         
 
 
 /*текст футера*/
+.qwerty{
+    margin-right: 120px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    
+}
+
+.footer-icon-title{
+    font-family: 'Roboto'sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+}
+
+.footer-social-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+}
+
+.footer-cosials{
+        display: flex;
+        width: ;
+        height: ;
+        gap: 24px;
+        margin-top: 16px;
+    }
+
+
 
 .text-footer{
 font-size: 16px;
