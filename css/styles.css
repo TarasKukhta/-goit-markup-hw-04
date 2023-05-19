@@ -243,8 +243,7 @@ padding: 32px 0;
 text-align: center;}
 
 .text-main-our-team{
-margin-bottom: 8px}
-
+}
 
 .text-minor-our-team{
 margin-top: 8px;}
@@ -491,6 +490,10 @@ padding: 32px 16px;}
 
 .img-pf-item{
     display: block;
+}
+
+.img-pf-item:hover,
+.img-pf-item:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);;
